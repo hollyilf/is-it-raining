@@ -36,4 +36,5 @@ a :hover {
 @media (max-width: 450px) {
     body {padding-top: 50px;}
     h1 {font-size: 3.5rem;}
+    btn {margin-top: 20px}
   }
