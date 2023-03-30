@@ -1,0 +1,40 @@
+body {
+    background-color: #bcc4dc;
+    background-image: url("/images/background.png");
+    padding: 100px 25px;
+    text-align: center;
+  }
+
+footer {
+    bottom:0px;
+    left:0px;
+    position: fixed;
+    text-align: center;
+    width:100%;
+  } 
+
+h1 {
+    color: #181823;
+    font-size: 4rem;
+    margin: 30px;
+  }
+
+p {
+    color: #301E67;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+a {
+    font-size: 2rem;
+  }
+
+a :hover {
+    color: #0a58ca;
+  }
+
+@media (max-width: 450px) {
+    body {padding-top: 50px;}
+    h1 {font-size: 3.5rem;}
+    .btn {margin-top: 20px}
+  }

@@ -1,0 +1,14 @@
+<%- include("header"); -%>  
+
+<!-- Use weather code to determine which text should be rendered -->
+<% if (weatherCode < 600) { %>
+  <h1>It's raining in <%= city %></h1>
+<% } else { %>  
+  <h1>It's not raining in <%= city %></h1>
+<% } %>
+
+<p>It's <%= temperature %>°C with <%= weatherDescription %></p>
+
+<%- include("form"); -%>  
+
+<%- include("footer"); -%>  
